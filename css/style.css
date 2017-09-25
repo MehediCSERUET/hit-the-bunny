@@ -1,0 +1,162 @@
+ body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../image/bg.jpg');
+    background-size: cover;
+}
+#leaderboard {
+    float: left;
+    border: 1px solid green;
+    height: 480px;
+    width: 300px;
+    margin: 5% auto auto 5%;
+    background: purple;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 3px;
+    color: yellow;
+    font-family: cursive, sans-serif;
+}
+table {
+    border-spacing: 10px;
+    height: 100%;
+    width: 100%;
+}
+#thName {
+    width: 70%;
+}
+#thScore {
+    width: 30%;
+}
+
+.main {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    border: 2px solid #00ff00;
+    margin: 5% auto auto 0px;
+    float: left;
+    background-color: aquamarine;
+}
+.score {
+    height: 480px;
+    width: auto;
+    margin: 5% auto auto 0px;
+    float: left;
+    color: yellow;
+    font-family: cursive, sans-serif;
+    background-color: purple;
+    border: 1px solid blue;
+}
+#no, #highscore {
+    font-family: cursive, sans-serif;
+    font-size: 200%;
+    color: yellow;
+}
+#life1, #life2, #life3 {
+    height: 50px;
+    width: 50px;
+}
+#lifeRemain {
+    font-size: 200%;
+}
+
+/* unvisited link */
+#reload:link {
+    color: red;
+    background-color: white;
+}
+
+/* visited link */
+#reload:visited {
+    color: pink;
+    background-color: green;
+}
+
+/* mouse over link */
+#reload:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+/* selected link */
+#reload:active {
+    color: blue;
+    background-color: yellow;
+}
+
+.a {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.b {
+    position: absolute;
+    top: 9px;
+    left: 164px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.c {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.d {
+    position: absolute;
+    top: 164px;
+    left: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.e {
+    position: absolute;
+    top: 164px;
+    left: 164px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.f {
+    position: absolute;
+    top: 164px;
+    right: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.g {
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.h {
+    position: absolute;
+    bottom: 9px;
+    left: 164px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.i {
+    position: absolute;
+    bottom: 9px;
+    right: 9px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
